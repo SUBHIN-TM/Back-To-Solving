@@ -126,3 +126,15 @@ for(let i=0;i<aray.length-1;i++){
 console.log(Results)
 
 
+
+//* CHECK GIVEN STRING IS PALINDROME OR NOT 
+function pali(word){
+    if(word.length<=1){
+        return console.log("it is palindrome")
+    }
+    if(word[0] != word[word.length-1]){
+        return console.log("It is not palindrome")
+    }
+}
+
+pali("amma")
