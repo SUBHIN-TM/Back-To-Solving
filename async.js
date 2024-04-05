@@ -12,9 +12,6 @@ timer((x)=>{
     console.log(x);
 })
 
-
-
-
 // let timers=()=>{
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
